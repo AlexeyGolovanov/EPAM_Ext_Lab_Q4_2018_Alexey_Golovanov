@@ -1,5 +1,4 @@
 ﻿using Calculator.Resources;
-using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace Calculator.Models
