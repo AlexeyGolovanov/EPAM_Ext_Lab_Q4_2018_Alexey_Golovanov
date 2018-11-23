@@ -35,7 +35,7 @@ namespace Calculator.Controllers
                     result = (model.X - model.Y).ToString();
                     break;
                 case Operation.Div:
-                    result = (model.Y == 0) ? "error! division by zero" : (Math.Round((double)model.X / model.Y, 3)).ToString();
+                    result = (model.Y == 0) ? "error! division by zero" : (Math.Round((double)model.X / model.Y, 3)).ToString();//todo pn строки - в ресурсы
                     break;
                 case Operation.Eq:
                     result = (model.X == model.Y).ToString();
