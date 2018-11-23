@@ -1,9 +1,9 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
-using System.Reflection;
-
-namespace Calculator.Helpers
+﻿namespace Calculator.Helpers
 {
+    using System;
+    using System.ComponentModel.DataAnnotations;
+    using System.Reflection;
+
     public static class RazorHelpers
     {
         public static string DisplayName(this Enum value)

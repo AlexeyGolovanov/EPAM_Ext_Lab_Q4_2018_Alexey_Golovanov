@@ -176,5 +176,14 @@ namespace Calculator.Resources {
                 return ResourceManager.GetString("y", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на error! division by zero.
+        /// </summary>
+        public static string zeroDivision {
+            get {
+                return ResourceManager.GetString("zeroDivision", resourceCulture);
+            }
+        }
     }
 }

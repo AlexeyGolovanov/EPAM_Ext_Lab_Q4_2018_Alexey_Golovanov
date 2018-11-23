@@ -1,8 +1,8 @@
-﻿using Calculator.Resources;
-using System.ComponentModel.DataAnnotations;
-
-namespace Calculator.Models
+﻿namespace Calculator.Models
 {
+    using System.ComponentModel.DataAnnotations;
+    using Resources;
+    
     public class CalcModel
     {
         [Display(Name = "x", ResourceType = typeof(CalcResources))]

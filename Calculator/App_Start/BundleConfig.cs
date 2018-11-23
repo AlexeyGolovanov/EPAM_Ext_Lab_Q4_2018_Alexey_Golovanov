@@ -1,7 +1,7 @@
-﻿using System.Web.Optimization;
-
-namespace Calculator
+﻿namespace Calculator
 {
+    using System.Web.Optimization;
+
     public class BundleConfig
     {
         // Дополнительные сведения об объединении см. на странице https://go.microsoft.com/fwlink/?LinkId=301862

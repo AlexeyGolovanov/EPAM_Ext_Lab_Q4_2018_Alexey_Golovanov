@@ -156,4 +156,7 @@
   <data name="y" xml:space="preserve">
     <value>Y</value>
   </data>
+  <data name="zeroDivision" xml:space="preserve">
+    <value>error! division by zero</value>
+  </data>
 </root>
