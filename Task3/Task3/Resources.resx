@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="error" xml:space="preserve">
+    <value>invalid value entered</value>
+  </data>
+  <data name="errorArea" xml:space="preserve">
+    <value>entered value should be integer and &gt;0</value>
+  </data>
+  <data name="errorMenu" xml:space="preserve">
+    <value>entered value should be integer within [0;{0}]</value>
+  </data>
+  <data name="errorTwo" xml:space="preserve">
+    <value>entered value should be "1" or "2"</value>
+  </data>
+  <data name="exit" xml:space="preserve">
+    <value>0 - close the application</value>
+  </data>
+  <data name="FuncFinish" xml:space="preserve">
+    <value>enter "1" to repeat the task with other values or "2" to return to the menu</value>
+  </data>
+  <data name="height" xml:space="preserve">
+    <value>Enter the height value</value>
+  </data>
+  <data name="MenuHead" xml:space="preserve">
+    <value>Choose task number to be shown:</value>
+  </data>
+  <data name="task1" xml:space="preserve">
+    <value>1 - rectangle area (3.1)</value>
+  </data>
+  <data name="task2" xml:space="preserve">
+    <value>2 - aligned to left picture (3.2)</value>
+  </data>
+  <data name="testRnd" xml:space="preserve">
+    <value>1 - Show solution with random generated input</value>
+  </data>
+  <data name="testUser" xml:space="preserve">
+    <value>2 - Enter data manually</value>
+  </data>
+  <data name="width" xml:space="preserve">
+    <value>Enter the width value</value>
+  </data>
+  <data name="arraySortExit" xml:space="preserve">
+    <value>Enter "2" to return to the menu, or any other character to repeat with different values </value>
+  </data>
+  <data name="bold" xml:space="preserve">
+    <value>bold</value>
+  </data>
+  <data name="enter" xml:space="preserve">
+    <value>Enter:</value>
+  </data>
+  <data name="errorStars1" xml:space="preserve">
+    <value>entered value should be integer within [1;15]</value>
+  </data>
+  <data name="font0" xml:space="preserve">
+    <value>0: exit</value>
+  </data>
+  <data name="font1" xml:space="preserve">
+    <value>1: bold</value>
+  </data>
+  <data name="font2" xml:space="preserve">
+    <value>2: italic</value>
+  </data>
+  <data name="font3" xml:space="preserve">
+    <value>3: underlined</value>
+  </data>
+  <data name="italic" xml:space="preserve">
+    <value>italic</value>
+  </data>
+  <data name="none" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="Shell" xml:space="preserve">
+    <value>Sorted array:</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Array before sorting:</value>
+  </data>
+  <data name="SortFirstLast" xml:space="preserve">
+    <value>Smallest element: {0}; largest element: {1}</value>
+  </data>
+  <data name="Stars1" xml:space="preserve">
+    <value>Enter lines quantity</value>
+  </data>
+  <data name="strParams" xml:space="preserve">
+    <value>String parametres: </value>
+  </data>
+  <data name="sumStr" xml:space="preserve">
+    <value>sum of all multiples of {0} or {1} less than {2} equals {3}</value>
+  </data>
+  <data name="task3" xml:space="preserve">
+    <value>3 - centered triangle (3.3)</value>
+  </data>
+  <data name="task4" xml:space="preserve">
+    <value>4 - growing triangles (3.4)</value>
+  </data>
+  <data name="task5" xml:space="preserve">
+    <value>5 - sum with complicated parametres (3.5)</value>
+  </data>
+  <data name="task6" xml:space="preserve">
+    <value>6 - font parametres (3.6)</value>
+  </data>
+  <data name="task7" xml:space="preserve">
+    <value>7 - Array sorting (3.7)</value>
+  </data>
+  <data name="underlined" xml:space="preserve">
+    <value>underlined</value>
+  </data>
+  <data name="arr" xml:space="preserve">
+    <value>array:</value>
+  </data>
+  <data name="arr3dFinish" xml:space="preserve">
+    <value>Number of positive elements after changes:</value>
+  </data>
+  <data name="arr3dStart" xml:space="preserve">
+    <value>Number of positive elements before changes:</value>
+  </data>
+  <data name="arrSize" xml:space="preserve">
+    <value>Size of array: {0}x{1}x{2}</value>
+  </data>
+  <data name="averageLength" xml:space="preserve">
+    <value>Average word length in string: </value>
+  </data>
+  <data name="enterStr" xml:space="preserve">
+    <value>Enter string</value>
+  </data>
+  <data name="entStrSecond" xml:space="preserve">
+    <value>Enter second string </value>
+  </data>
+  <data name="entStrToChng" xml:space="preserve">
+    <value>Enter the string, that will be changed</value>
+  </data>
+  <data name="posSum" xml:space="preserve">
+    <value>sum of all positive array elements: </value>
+  </data>
+  <data name="sumOnEven" xml:space="preserve">
+    <value>Sum of elements on even positions: </value>
+  </data>
+  <data name="task10" xml:space="preserve">
+    <value>10 - Sum of elements on even positions (3.10)</value>
+  </data>
+  <data name="task11" xml:space="preserve">
+    <value>11 - Average word length (3.11)</value>
+  </data>
+  <data name="task12" xml:space="preserve">
+    <value>12 - Double certain characters (3.12)</value>
+  </data>
+  <data name="task13" xml:space="preserve">
+    <value>13 - Average operation time (3.13)</value>
+  </data>
+  <data name="task8" xml:space="preserve">
+    <value>8 - Change positive elements of 3d array to 0 (3.8)</value>
+  </data>
+  <data name="task9" xml:space="preserve">
+    <value>9 - Sum of positive array elements (3.9)</value>
+  </data>
+  <data name="strGrow" xml:space="preserve">
+    <value>Average operation time, than string grows to {0} symbols</value>
+  </data>
+  <data name="strVsSB" xml:space="preserve">
+    <value>string: {0} ms{2}StringBuilder {1} ms</value>
+  </data>
+  <data name="area" xml:space="preserve">
+    <value>area of rectangle with sides {0} and {1} is {2}</value>
+  </data>
+</root>
