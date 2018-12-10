@@ -8,7 +8,7 @@
 
         public static void ShowMenu()
         {
-            Console.WriteLine(Resources.MenuHead);
+            Console.WriteLine(Resources.MenuHead);//todo pn сильная связность решения.
             Console.WriteLine(Resources.task1);
             Console.WriteLine(Resources.task2);
             Console.WriteLine(Resources.task3);

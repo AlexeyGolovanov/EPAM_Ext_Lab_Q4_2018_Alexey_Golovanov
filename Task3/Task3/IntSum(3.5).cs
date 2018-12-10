@@ -11,7 +11,7 @@
             int secondInt = 5;
             var sum1 = Sum(firstInt, limit);
             var sum2 = Sum(secondInt, limit);
-            Console.WriteLine(Resources.sumStr, firstInt, secondInt, limit, sum1 + sum2);
+            Console.WriteLine(Resources.sumStr, firstInt, secondInt, limit, sum1 + sum2);//todo pn сильная связность решения.
         }
 
         private static int Sum(int step, int limit)

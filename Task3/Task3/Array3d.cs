@@ -12,10 +12,10 @@
             var dimensions = new int[Dim];
             for (int i = 0; i < Dim; i++)
             {
-                dimensions[i] = rnd.Next(1, 99);
+                dimensions[i] = rnd.Next(1, 99);//todo pn такие вещи лучше выносить либо в конфиг, либо хотя бы в константы
             }
 
-            Console.WriteLine(Resources.arrSize, dimensions[0], dimensions[1], dimensions[2]);
+            Console.WriteLine(Resources.arrSize, dimensions[0], dimensions[1], dimensions[2]);//todo pn сильная связность решения.
             var startArray = new int[dimensions[0], dimensions[1], dimensions[2]];
             startArray = InitArray(startArray, dimensions);
             Console.WriteLine(Resources.arr3dStart + CountPos(startArray, dimensions));
@@ -32,7 +32,7 @@
                 {
                     for (var k = 0; k < dims[2]; k++)
                     {
-                        emptyArr[i, j, k] = rnd.Next(-999, 999);
+                        emptyArr[i, j, k] = rnd.Next(-999, 999);//todo pn такие вещи лучше выносить либо в конфиг, либо хотя бы в константы
                     }
                 }
             }

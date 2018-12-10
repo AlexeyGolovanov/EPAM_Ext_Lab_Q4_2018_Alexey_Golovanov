@@ -9,7 +9,7 @@
         public static void EnterPoint()
         {
             var userStr = new StringBuilder();
-            Console.WriteLine(Resources.entStrToChng);
+            Console.WriteLine(Resources.entStrToChng);//todo pn сильная связность решения.
             userStr.Append(Console.ReadLine());
             Console.WriteLine(Resources.entStrSecond);
             var charSource = Console.ReadLine();

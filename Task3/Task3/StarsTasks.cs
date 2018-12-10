@@ -76,7 +76,7 @@
         {
             for (int i = 1; i < height + 1; i++)
             {
-                var s = new string('*', i);
+                var s = new string('*', i);//todo pn в константы
                 Console.WriteLine(s);
             }
         }
@@ -87,7 +87,7 @@
             for (int i = 0; i < height; i++)
             {
                 int spaces = (height * 2) - 1 - stars;
-                var s = new string('*', stars) + new string(' ', spaces);
+                var s = new string('*', stars) + new string(' ', spaces);//todo pn в константы
                 stars += 2;
                 s = Shift(s, spaces / 2);
                 Console.WriteLine(s);
@@ -102,7 +102,7 @@
                 for (int j = 0; j < i; j++)
                 {
                     int spaces = (height * 2) - 1 - stars;
-                    var s = new string('*', stars) + new string(' ', spaces);
+                    var s = new string('*', stars) + new string(' ', spaces);//todo pn в константы
                     stars += 2;
                     s = Shift(s, spaces / 2);
                     Console.WriteLine(s);

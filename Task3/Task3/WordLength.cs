@@ -8,7 +8,7 @@
     {
         public static void EnterPoint()
         {
-            Console.WriteLine(Resources.enterStr);
+            Console.WriteLine(Resources.enterStr);//todo pn сильная связность решения.
             var userStr = Console.ReadLine();
             Console.WriteLine(Resources.averageLength + GetAverage(userStr));
         }
@@ -24,7 +24,7 @@
                 }
             }
 
-            separators.Remove('-');
+            separators.Remove('-');//todo pn в константы
 
             var average = 0;
             var number = 0;

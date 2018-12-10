@@ -9,7 +9,7 @@
         public static int ChooseOne()
         {
             int res = 0;
-            if (int.TryParse(Console.ReadLine(), out int parsRes) && parsRes <= OptionsN && parsRes > 0)
+            if (int.TryParse(Console.ReadLine(), out int parsRes) && parsRes <= OptionsN && parsRes > 0)//todo pn сильная связность решения.
             {
                 switch (parsRes)
                 {

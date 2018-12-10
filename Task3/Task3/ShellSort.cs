@@ -13,11 +13,11 @@
                 arrToSort[i] = rand.Next(-99, 99);
             }
 
-            Console.WriteLine(Resources.Sort);
+            Console.WriteLine(Resources.Sort);//todo pn сильная связность решения.
             Console.WriteLine(string.Join(" ", arrToSort));
             arrToSort = Sort(arrToSort);
             Console.WriteLine(Resources.Shell);
-            Console.WriteLine(string.Join(" ", arrToSort));
+            Console.WriteLine(string.Join(" ", arrToSort));//todo pn в константы
             Console.WriteLine(Resources.SortFirstLast, arrToSort[0], arrToSort[arrToSort.Length - 1]);
         }
 

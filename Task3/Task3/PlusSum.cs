@@ -13,7 +13,7 @@
                 array[i] = rnd.Next(-99, 99);
             }
 
-            Console.WriteLine(Resources.arr + "\n" + string.Join(" ", array));
+            Console.WriteLine(Resources.arr + "\n" + string.Join(" ", array));//todo pn сильная связность решения.
             Console.WriteLine(Resources.posSum + PositiveSum(array));
         }
 

@@ -19,7 +19,7 @@
                     paramList = Resources.none;
                 }
 
-                Console.WriteLine(Resources.strParams + paramList);
+                Console.WriteLine(Resources.strParams + paramList);//todo pn сильная связность решения.
                 Console.WriteLine(Resources.enter); 
                 Console.WriteLine('\t' + Resources.font1);
                 Console.WriteLine('\t' + Resources.font2);
@@ -59,8 +59,8 @@
                 }
                 else
                 {
-                    Console.WriteLine(Resources.errorMenu, OptionsQ);
-                }
+                    Console.WriteLine(Resources.errorMenu, OptionsQ);//todo pn сильная связность решения.
+            }
         }
     }
 }

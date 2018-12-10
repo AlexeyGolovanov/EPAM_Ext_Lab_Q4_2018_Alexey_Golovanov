@@ -26,19 +26,19 @@
             watch.Restart();
             for (int i = 0; i < n; i++)
             {
-                str += "*";
+                str += "*";//todo pn в константы
             }
 
             results[0] = watch.ElapsedMilliseconds.ToString();
             watch.Restart();
             for (int i = 0; i < n; i++)
             {
-                sb.Append("*");
+                sb.Append("*");//todo pn в константы
             }
 
             results[1] = watch.ElapsedMilliseconds.ToString();
 
-            Console.WriteLine(Resources.strGrow, n);
+            Console.WriteLine(Resources.strGrow, n);//todo pn сильная связность решения.
             Console.WriteLine(Resources.strVsSB, results[0], results[1], '\t');
         }  
     }
