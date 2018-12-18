@@ -27,7 +27,7 @@
             }
             catch
             {
-                Console.WriteLine("ERROR: can not delete an item");
+                Console.WriteLine("couldn't delete the item");
                 return false;
             }
         }
@@ -40,7 +40,7 @@
             }
             catch
             {
-                Console.WriteLine("ERROR: item search failed");
+                Console.WriteLine("item search failed");
                 return new T();
             }
         }
@@ -53,7 +53,7 @@
             }
             catch
             {
-                Console.WriteLine("ERROR: List not found");
+                Console.WriteLine("couldn't found the List");
                 return new List<T>();
             }
         }
@@ -67,7 +67,7 @@
             }
             catch
             {
-                Console.WriteLine("ERROR: can not add item");
+                Console.WriteLine("item addition failed");
                 return false;
             }
         }
