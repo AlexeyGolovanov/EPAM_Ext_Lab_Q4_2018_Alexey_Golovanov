@@ -2,7 +2,7 @@
 {
     public class User
     {
-        public User()
+        public User() //todo pn не понял, почему ты создал новый проект, если у тебя есть наработки по 4му заданию? это же всё часть финальной работы.
         {
             this.Id = -1;
             this.Username = null;

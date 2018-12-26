@@ -3,7 +3,7 @@
     using System;
     using System.Collections.Generic;
 
-    public interface IBaseService<T> where T : class, new()
+    public interface IBaseService<T> where T : class, new() //todo pn формулировка задания изменилась, поэтому IBaseService нужно переименовать
     {
         T Get(int id);
 
@@ -14,7 +14,7 @@
         bool Delete(int id);
     }
 
-    public class Repos<T> : IBaseService<T> where T : class, new()
+    public class Repos<T> : IBaseService<T> where T : class, new() //todo pn в отдельный файл
     {
         private List<T> users = new List<T>();
 
