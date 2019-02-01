@@ -8,7 +8,7 @@
         public static bool IsPosInt(this string str)
         { 
             char[] allowedChars = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
-            if (str[0] == '-')
+            if (str[0] == '-')//todo pn не оптимально. А если строка с пробелами? вообще можно убрать это условие
             {
                 return false;
             }
@@ -32,12 +32,12 @@
             var exampleString = Console.ReadLine();
             if (exampleString.IsPosInt())
             {
-                Console.WriteLine("Entered string is positive integer");
+                Console.WriteLine("Entered string is positive integer"); //todo pn две почти идентичные строки
             }
             else
             {
-                Console.WriteLine("Entered string is either not integer or it is not positive");
-            }
+                Console.WriteLine("Entered string is either not integer or it is not positive");//todo pn две почти идентичные строки
+			}
 
             Console.ReadLine();
         }
