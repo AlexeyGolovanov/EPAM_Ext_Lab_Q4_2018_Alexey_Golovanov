@@ -47,10 +47,10 @@ END;
 
 CREATE TABLE [dbo].[Users](
 	[UserId] int IDENTITY(1, 1) NOT NULL PRIMARY KEY,
-	[Username] nvarchar(50) NOT NULL,
+	[Username] nvarchar(50) NOT NULL UNIQUE,
 	[Role] int FOREIGN KEY REFERENCES Roles(RoleId),
 	[Password] nvarchar(50) NOT NULL,
-	[Email] nvarchar(50) NOT NULL,
+	[Email] nvarchar(50) NOT NULL UNIQUE,
 	[RegDate] datetime NULL,
 	[Country] int FOREIGN KEY REFERENCES Countries(CountryId),
 	[Gender] VARCHAR(6) NOT NULL CHECK (Gender IN ('Male', 'Female')),
