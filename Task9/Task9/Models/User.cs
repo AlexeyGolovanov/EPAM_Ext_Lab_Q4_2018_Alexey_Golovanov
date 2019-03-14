@@ -35,7 +35,6 @@
             this.Username = username;
             this.Role = role;
             this.Password = Hash.HashPassword(password);
-            //this.Password = password;
             this.Email = email;
             this.RegDate = regDate;
             this.Country = country;
