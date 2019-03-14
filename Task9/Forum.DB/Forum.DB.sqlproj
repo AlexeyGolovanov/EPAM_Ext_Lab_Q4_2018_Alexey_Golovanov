@@ -71,5 +71,6 @@
     <None Include="Scripts\FillRoles.sql" />
     <None Include="Scripts\FillCountries.sql" />
     <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
+    <None Include="Forum.DB.publish.xml" />
   </ItemGroup>
 </Project>

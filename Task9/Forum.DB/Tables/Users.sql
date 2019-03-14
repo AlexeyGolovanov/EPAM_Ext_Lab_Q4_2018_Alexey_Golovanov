@@ -3,7 +3,7 @@
 	[UserId] int NOT NULL PRIMARY KEY,
 	[Username] nvarchar(50) NOT NULL UNIQUE,
 	[Role] int NOT NULL,
-	[Password] nvarchar(50) NOT NULL,
+	[Password] nvarchar(200) NOT NULL,
 	[Email] nvarchar(50) NOT NULL UNIQUE,
 	[RegDate] datetime NULL,
 	[Country] int NOT NULL,
