@@ -6,7 +6,7 @@ namespace Task9.Models
 {
     public class Hash
     {
-        public static string HashPassword(string password)
+        public static string HashPassword(string password)//todo pn мне кажется, что ты делаешь лишнюю работу. в MSSQL есть отдельный метод MD5, который нормально хэширует пароли. Слишком усложнил себе жизнь. Советую использовать его.
         {
             byte[] salt;
             byte[] buffer2;

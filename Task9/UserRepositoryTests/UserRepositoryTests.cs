@@ -17,7 +17,7 @@
         public void GetById()
         {
             
-            IUserRepository repo = new UserRepository(connectionString);
+            IUserRepository repo = new UserRepository(connectionString);//todo pn достаточно один раз в приватную переменную инициализировать репозиторий для каждого теста, а не делать это в каждом тесте.
 
             User user = repo.Get(1);
 
@@ -51,7 +51,7 @@
 
             User user = new User(uniqueId, "name", Role.Plebs, "qwer", "tstEmail@1.com", DateTime.Now, Country.Russia, "Male", "Name", "Surname", new DateTime(1996, 01, 28));
 
-            Assert.IsTrue(repo.Save(user));
+            Assert.IsTrue(repo.Save(user));//todo pn тут лучше попробовать по ИД выдернуть из базы и сравнить с тем, что сохранял по каждому полю
 
             repo.Delete(uniqueId);
         }
@@ -62,7 +62,7 @@
             IUserRepository repo = new UserRepository(this.connectionString);
             List<User> users = repo.GetAll();
 
-            Assert.AreNotEqual(users.Count, 0);
+            Assert.AreNotEqual(users.Count, 0);//todo pn лучше обнулить базу, сохранить известный список пользователей и сравнить с ним то, что сохранилось в базу. Да, для таких целей обычно заводят отдельную базу для тестов.
 
             foreach (var u in users)
             {
